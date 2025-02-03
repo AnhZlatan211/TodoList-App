@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(17, 17, 17);
+}
+.box {
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: white;
+}
+.box h1 {
+    text-align: center;
+    font-size: 35px;
+}
+.in input {
+    padding: 10px;
+    border: 1px solid rgb(140, 140, 140);
+    border-radius: 5px 0px 0px 5px;
+    width: 250px;
+}
+.in button {
+    padding: 11px;
+    border: none;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+.in button:hover {
+    cursor: pointer;
+    background-color: rgb(26, 26, 26);
+}
+.element p { 
+    color: white;
+    padding-left: 10px;
+}
+.element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.element button {
+    border: none;
+    padding: 6px 9px;
+    margin-right: 6px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.element button:hover {
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
